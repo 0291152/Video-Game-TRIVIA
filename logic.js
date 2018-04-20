@@ -66,7 +66,7 @@ var game = {
 		$("#counter-number").html(this.counter);
 
 		panel.html("<h2>Out of Time!</h2>");
-		panel.append("<h3>The Correct Answer was: " + questions[this.currentQuestion].correctAnswerr);
+		panel.append("<h3>The Correct Answer was: " + questions[this.currentQuestion].correctAnswer);
 		panel.append("<img src='" + questions[this.currentQuestion].image + "' />");
 
 		if (this.currentQuestion === questions.length - 1) {
